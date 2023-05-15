@@ -19,4 +19,9 @@ namespace ariel
     {
     }
 
+    int Cowboy::getBullets()
+    {
+        return 0;
+    }
+
 }

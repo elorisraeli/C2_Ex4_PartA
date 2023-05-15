@@ -8,7 +8,7 @@ namespace ariel
 {
     Character::Character(string ch_name, Point position) : name(ch_name), positionP(position)
     {
-    }    
+    }
     Character::Character(string ch_name, Point position, int HPoints) : name(ch_name), positionP(position), Hit_Points(HPoints)
     {
     }
@@ -32,8 +32,19 @@ namespace ariel
     {
         return Point(0.0, 0.0);
     }
-    void Character::print()
+    string Character::print()
     {
+        return "";
+    }
+
+    int Character::getHitPoints()
+    {
+        return 0;
+    }
+
+    void Character::moveTowards(Point destination, double distance)
+    {
+
     }
 
 }

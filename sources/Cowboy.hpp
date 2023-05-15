@@ -19,6 +19,7 @@ namespace ariel
         bool hasboolets();
         void reload();
 
+        int getBullets();
     };
 }
 

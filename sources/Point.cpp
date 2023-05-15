@@ -15,12 +15,31 @@ namespace ariel
 
     void Point::print()
     {
-
     }
 
     double Point::moveTowards(Point source, Point destination, double distance)
     {
         return 0.0;
+    }
+
+    double Point::getX()
+    {
+        return 0.0;
+    }
+
+    double Point::getY()
+    {
+        return 0.0;
+    }
+
+    void Point::setX(double x)
+    {
+
+    }
+
+    void Point::setY(double y)
+    {
+
     }
 
 }

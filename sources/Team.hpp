@@ -16,10 +16,9 @@ namespace ariel
     class Team
     {
     private:
-        vector<Character*> fighters;
+        vector<Character *> fighters;
         Character *leader;
-        bool isMember(Character* character);
-
+        bool isMember(Character *character);
 
     public:
         Team(Character *pLeader);
@@ -29,6 +28,10 @@ namespace ariel
         int stillAlive();
         void print();
         virtual Character *getByOrder();
+
+        void remove(Character *fighter_to_remove);
+        Character *getLeader();
+        size_t size();
     };
 }
 

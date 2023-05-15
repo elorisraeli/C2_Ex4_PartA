@@ -25,7 +25,7 @@ namespace ariel
     }
     int Team::stillAlive()
     {
-        return 1;
+        return 0;
     }
     void Team::print()
     {
@@ -34,5 +34,21 @@ namespace ariel
     {
         return NULL;
     }
+
+    void Team::remove(Character *fighter_to_remove)
+    {
+
+    }
+
+    Character *Team::getLeader()
+    {
+        return NULL;
+    }
+
+    size_t Team::size()
+    {
+        return 0;
+    }
+
 
 }

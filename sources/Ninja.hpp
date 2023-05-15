@@ -16,6 +16,7 @@ namespace ariel
         void move(Character *enemy);
         void slash(Character *enemy);
 
+        int getSpeed();
     };
 }
 

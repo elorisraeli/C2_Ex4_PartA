@@ -13,7 +13,7 @@ namespace ariel
     private:
         Point positionP;
         int Hit_Points;
-        string name; 
+        string name;
 
     public:
         Character(string ch_name, Point position);
@@ -25,6 +25,8 @@ namespace ariel
         Point getLocation();
         virtual string print();
 
+        int getHitPoints();
+        void moveTowards(Point destination, double distance);
     };
 }
 

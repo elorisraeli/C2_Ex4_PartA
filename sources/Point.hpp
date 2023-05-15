@@ -20,6 +20,10 @@ namespace ariel
 
         double moveTowards(Point source, Point destination, double distance);
 
+        double getX();
+        double getY();
+        void setX(double x);
+        void setY(double y);
     };
 }
 
